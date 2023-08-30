@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+#root {
+    background-image: linear-gradient(to bottom, rgba(1, 1, 1, 0.971), rgba(0, 0, 0, 0.848));
+    width: 100%;
+    height: 100vw;
+}
