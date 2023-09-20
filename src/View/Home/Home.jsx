@@ -47,7 +47,9 @@ async function searchCaracter(event) {
             ))}
       </div>
       <div className='chosepage'>
-      <button onClick={previousPage}>Página anterior</button><p>Página atual : {list}</p><button onClick={nextPage}>Próxima página</button>
+        <button onClick={previousPage}>Página anterior</button>
+        <p>Página atual : {list}</p>
+        <button onClick={nextPage}>Próxima página</button>
       </div>
     </div>  
   </>

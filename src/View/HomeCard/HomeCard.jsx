@@ -11,7 +11,7 @@ const HomeCard = ({Char}) => {
         <img src={Char.image}/>
         <p>Nome: {Char.name}</p>
         <p>Espécie: {Char.species}</p>
-        <p>{Char.status}</p>
+        <p> {Char.status}</p>
         <p>Origem: {Char.origin.name}</p>
       </div> 
     </section>
