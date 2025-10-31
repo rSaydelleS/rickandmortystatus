@@ -15,7 +15,7 @@ phases:
   post-build:
     commands:
       - echo Build completed. Copying files to S3...
-      - aws cp dist s3://dnc-firstproject/ --recursive
+      - aws s3 cp dist s3://dnc-firstproject/ --recursive
       
 artifacts:
   files:
