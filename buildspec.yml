@@ -23,4 +23,5 @@ artifacts:
   base-directory: dist
 
 cache:
-  - 'node/modules/**/*'
+  paths:
+    - 'node/modules/**/*'
