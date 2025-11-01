@@ -12,7 +12,7 @@ phases:
     commands:
       - echo Building application...
       - npm run build
-  post-build:
+  post_build:
     commands:
       - echo Build completed. Copying files to S3...
       - aws s3 cp dist s3://dnc-firstproject/ --recursive
